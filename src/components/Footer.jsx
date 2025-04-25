@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,10 +14,10 @@ const Footer = () => {
           <Col md={4} className="mb-3">
             <h6>Quick Links</h6>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li><a href="/" style={{ color: '#fff', textDecoration: 'none' }}>Home</a></li>
-              <li><a href="/signup" style={{ color: '#fff', textDecoration: 'none' }}>Sign Up</a></li>
-              <li><a href="/login" style={{ color: '#fff', textDecoration: 'none' }}>Login</a></li>
-              <li><a href="/contact" style={{ color: '#fff', textDecoration: 'none' }}>Contact</a></li>
+              <li><Link to="/" style={{ color: '#fff', textDecoration: 'none' }}>Home</Link></li>
+              <li><Link to="/signup" style={{ color: '#fff', textDecoration: 'none' }}>Sign Up</Link></li>
+              <li><Link to="/login" style={{ color: '#fff', textDecoration: 'none' }}>Login</Link></li>
+              <li><Link to="/contact" style={{ color: '#fff', textDecoration: 'none' }}>Contact</Link></li>
             </ul>
           </Col>
           <Col md={4} className="mb-3">

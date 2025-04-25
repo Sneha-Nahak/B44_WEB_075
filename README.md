@@ -87,4 +87,4 @@ Sneha Nahak
 Subash Khati
 
 ## Live Demo Link:
-[Live Demo](YOUR_NETLIFY_URL)
+[Live Demo](https://680b6d08bbbf7ae5894439e8--tenant-landlord-portal.netlify.app/)

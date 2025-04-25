@@ -1,0 +1,73 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "role": "Tenant",
+        "assignedIssues": [1, 2],
+        "contact": "john@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "role": "Landlord",
+        "assignedIssues": [3, 4, 5],
+        "contact": "jane@example.com"
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "role": "Tenant",
+        "assignedIssues": [3],
+        "contact": "bob@example.com"
+      }
+    ],
+    "issues": [
+      {
+        "id": 1,
+        "type": "Plumbing",
+        "status": "Pending",
+        "urgency": "High",
+        "description": "The kitchen sink is leaking and needs urgent repair.",
+        "assignedTo": 1,
+        "files": ["leak_image1.jpg"]
+      },
+      {
+        "id": 2,
+        "type": "Electrical",
+        "status": "In Progress",
+        "urgency": "Medium",
+        "description": "The light fixture in the living room is malfunctioning.",
+        "assignedTo": 1,
+        "files": ["light_fixture.jpg"]
+      },
+      {
+        "id": 3,
+        "type": "General",
+        "status": "Completed",
+        "urgency": "Low",
+        "description": "Routine maintenance check completed for HVAC.",
+        "assignedTo": 3,
+        "files": []
+      },
+      {
+        "id": 4,
+        "type": "Plumbing",
+        "status": "In Progress",
+        "urgency": "High",
+        "description": "The bathroom toilet is blocked and needs to be fixed.",
+        "assignedTo": 2,
+        "files": ["toilet_blockage_video.mp4"]
+      },
+      {
+        "id": 5,
+        "type": "Electrical",
+        "status": "Pending",
+        "urgency": "Medium",
+        "description": "The air conditioning unit is not cooling properly, needs inspection.",
+        "assignedTo": 2,
+        "files": ["ac_issue.jpg"]
+      }
+    ]
+  }
+  

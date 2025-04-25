@@ -77,7 +77,7 @@ const Contact = () => {
                 <FaEnvelope className="me-2 text-primary " style={{color:'#21262b'}}/> support@tenantlandlord.com
               </p>
               <p style={{ fontSize: '1rem' }}>
-                <FaPhone className="me-2 text-primary" /> +1 (800) 123-4567
+                <FaPhone className="me-2 text-primary" /> +91 123-456-7890
               </p>
               <p style={{ fontSize: '1rem' }}>
                 <FaMapMarkerAlt className="me-2 text-primary" /> 123 Main Street, City, Country

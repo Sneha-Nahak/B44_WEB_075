@@ -65,8 +65,8 @@ To run this project locally, you will need to have Node.js and npm (or yarn) ins
 
 1.  **Clone the repository:**
     ```bash
-    git clone [[repository-url](https://github.com/Sneha-Nahak/B44_WEB_075.git)]
-    cd [repository-name]
+    git clone [https://github.com/Sneha-Nahak/B44_WEB_075.git] (https://github.com/Sneha-Nahak/B44_WEB_075.git)
+    cd [B44_WEB_075]
     ```
 
 2.  **Install dependencies:**

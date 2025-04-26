@@ -18,6 +18,8 @@ The platform aims to streamline common tasks and communications involved in prop
 
 The project structure is organized as follows:
 
+```
+
 tenant-landlord-platform/
 ├── node_modules/         # Contains project dependencies (npm packages)
 ├── public/              # Static assets served directly by the server
@@ -51,7 +53,7 @@ tenant-landlord-platform/
 ├── package-lock.json    # Records exact versions of dependencies
 └── package.json         # Project metadata, dependencies, and scripts
 
-
+```
 ## Key Components and Pages
 
 * **`components`**: Houses reusable UI elements like navigation, footers, forms, and specific widgets for displaying information.
